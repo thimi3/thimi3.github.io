@@ -1,0 +1,184 @@
+@import "compass/css3";
+
+html, body{
+  margin:0px; padding:0px;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header{
+  z-index: 1;
+  position:fixed; 
+  width:100%; 
+  height:60px; 
+  background:rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   /* background-color: #333; */
+    background-color: #E8C66A;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+   /* background-color: #111; */
+background-color: #E8C66A;
+}
+
+header a{
+  color:white;
+  background:rgba(0,0,0,0.1); 
+  display:inline-block; 
+  padding:0px 30px; 
+  height:60px;
+  line-height:60px; 
+  text-align:center;
+  font-family: 'Roboto Slab', serif; 
+  text-decoration:none;
+  text-transform:uppercase; 
+  letter-spacing:2px; 
+  font-weight:700;
+}
+#hero1{
+ /*background:url(http://4.bp.blogspot.com/_AQ0vcRxFu0A/S9shDGGyMTI/AAAAAAAAAYk/kn3WTkY2LoQ/s1600/IMG_0714.JPG);*/
+  background:url('../images/resto.jpg');
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  text-align: center;
+}
+#hero2{background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21555/Melissani-cave-natural.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+.hero, .content{
+  background:url('images/resto.jpg');
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
+
+.inner{
+  min-height:600px;
+  position: relative;
+}
+
+.hero .inner{
+  background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;}
+
+
+.copy{
+  position:absolute; 
+  top:50%; 
+  height:10em; 
+  margin-top:-5em; 
+  width:100%;
+}
+
+.hero h1, .hero p{ 
+  color:#fff;
+}
+
+.content h1, .content p{
+  color:#333;
+}
+
+h1{
+  margin:0px;
+  font-family: 'Pangolin', cursive;
+  font-weight:400;
+  font-size:32px;
+  padding:0px 20px;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif; 
+  font-size:14px;
+  padding:0px 20px;
+}
+
+#logo {
+
+float: right;
+
+}
+
+#menus {
+
+font-family: 'Pangolin', cursive;
+font-size: 20px;
+text-align: left; 
+font-weight: 900;
+
+}
+
+#list ul {
+
+list-style-type: circle;
+display: list-item;
+margin: 0px;
+padding: 0 0 0 40px;
+background: white;
+
+
+}
+
+footer {
+
+text-align: center;
+font-size: 20px;
+background-color: #FF957E;
+
+}
+
+
+span {
+    padding: 10px;
+    border: 10px solid white;
+    display: inline-block;
+}
+
+article{
+    background:#E89C6C;
+    width:650px;
+    height:325px;
+    border-radius:7px;
+    padding: 0 10px;
+    color:red;
+    margin:auto;
+    margin-bottom:40px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+aside {
+background-color: #FFC675;
+}
+
+section {
+
+background-color: #FFE2B8;
+
+}
